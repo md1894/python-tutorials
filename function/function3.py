@@ -45,6 +45,7 @@ def sum2(*n,pos='mehul'):
     print('-------------------------------------------')
 
 sum2(10,20,30,40,50,pos='mehul')
+# if called sum2(10,20,30,40,50,'mehul')  ---> error
 
 
 # just observe how these functions are called
