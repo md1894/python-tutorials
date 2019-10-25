@@ -53,6 +53,7 @@ t2 = test1(10)
 
 # python will consider the latest constructor , i.e. one-arg constructor
 # it will discard all the previous constructors
+# only the last constructor will be considered , all the other constructor will be discarded
 # if we are creating object by calling any previous constructor
 # then it produces error
 # like in above example if i call constructor like t = test()--> invalid
