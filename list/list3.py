@@ -58,5 +58,5 @@ print('-------------------------------------')
 n = [10,20,30,40,50,60]
 print(n.pop()) # op-> 60
 print(n.pop(1)) # op-> 20
-print(n.pop(10)) # op-> IndexError: pop index out of range
+#print(n.pop(10)) # op-> IndexError: pop index out of range
 print('--------------------------------------------------')
