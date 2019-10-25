@@ -63,3 +63,9 @@ print (s) # {0, 1, 4, 9, 16}
 
 s = {2**x for x in range(2,10,2)}
 print (s) # {16, 256, 64, 4}
+
+
+# Set Objects won't support indexing and slicing:
+# 1) s = {10,20,30,40}
+# 2) print(s[0]) # TypeError: 'set' object does not support indexing
+# 3) print(s[1:3]) # TypeError: 'set' object is not subscriptable
