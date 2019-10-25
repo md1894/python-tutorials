@@ -16,6 +16,7 @@ t.addr()
 
 
 # note
+# in python __init__(self) , this function is known as constructor
 # self is only used inside the class defination
 # self is a reference variable pointing to the current object
 # we cannot use self outside the class
