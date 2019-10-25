@@ -47,7 +47,7 @@ class test1:
 
 #t1 = test1() --> this line if uncommented , produces error
 t2 = test1(10)
-
+t3 = test1(300)
 
 # note:
 
