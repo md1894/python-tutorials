@@ -34,3 +34,8 @@ Test.m3()
 print(Test.__dict__['a'],Test.__dict__['b'],Test.__dict__['c'],Test.__dict__['d'],Test.__dict__['e'],Test.__dict__['f'])
 Test.g = 70     # place no 6
 print(Test.__dict__['a'],Test.__dict__['b'],Test.__dict__['c'],Test.__dict__['d'],Test.__dict__['e'],Test.__dict__['f'],Test.__dict__['g'])
+
+# note:
+# we can access static variable by any thing
+# i.e classname,cls,self,object-reference outside class
+# which ever is available you can use accordingly
