@@ -41,3 +41,8 @@ print(c.__dict__)
 
 # value of instance variable can be updated , simply by using any object reference and assignment operator
 # either self , or external object reference
+
+
+# note : if we delete or update instance variable of one object then , that changes wont be refelected to
+# another object of same class
+# because each object maintains separate copy of instance variable
