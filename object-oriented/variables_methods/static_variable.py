@@ -39,3 +39,6 @@ print(Test.__dict__['a'],Test.__dict__['b'],Test.__dict__['c'],Test.__dict__['d'
 # we can access static variable by any thing
 # i.e classname,cls,self,object-reference outside class
 # which ever is available you can use accordingly
+
+# we can modify static variable either by using classname or cls variable
+# similarly we can delete static variable either by using classname or cls variable
