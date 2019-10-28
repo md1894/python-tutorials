@@ -1,0 +1,7 @@
+there are 6 types of inheritance
+1. single inheritance
+2. multi level inheritance
+3. Hierarchical inheritance
+4. multiple inheritance
+5. hybrid inheritance
+6. cyclic inheritance
