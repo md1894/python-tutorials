@@ -45,6 +45,6 @@ class Employee(Person):
 
 e = Employee('mehul',26,'M','18th feb 1994','software engineer','IT',50000,'UK')
 e.displayDetails()
-
+e.printPersonalDetail()     # i can call parent class method by using child class object
 
 # i can call parent class method by using super() function , or by using self
