@@ -1,0 +1,13 @@
+overloading:
+	 1. operator overloading
+	 2. method overloading
+	 3. constructor overloading
+
+over-riding:
+	1.method over-riding
+	2.constructor over-riding
+
+pythonic behaviour:
+	1.Duck typing
+	2.Easier to Ask Forgiveness than permission (EAFP)
+	3.Monkey patching
