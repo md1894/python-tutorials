@@ -5,3 +5,11 @@ there are 6 types of inheritance
 4. multiple inheritance
 5. hybrid inheritance
 6. cyclic inheritance
+
+note: super() cannot be used to access parent class instance variable
+      access it by using self
+	
+     if parent class and child class contain instance variable with the same name , then only child class instance variable will be there
+     parent class instance variable will be discarded
+
+     with the help of super() we can access parent class static variables
