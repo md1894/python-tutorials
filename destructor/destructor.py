@@ -15,5 +15,8 @@ t2 = test()
 
 # when object points to None , it is eligible for garbage collection
 # garbagecollector will call destructor on that object
-# if program reaches end of code , then automatically every object is eligible for garbage collection 
+# if program reaches end of code , then automatically every object is eligible for garbage collection
+
+# constructor --> def __init__(self)
+# destructor --> def __del__(self) 
 
