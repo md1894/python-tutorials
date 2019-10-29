@@ -12,3 +12,15 @@ else:
     print('else will execute if no execption occured')
 finally:
     print('compulsory code ---------------- , weather exception occured or not')
+
+    # if exception is not handled , then before abnormal termination finally block will be executed
+
+try:
+    print(10/0)
+except ValueError:
+    print('ValueError handler')
+finally:
+    print('*********************************************************')
+    print('even exception not handled , then also finally executed')
+    print(50*'*')
+
