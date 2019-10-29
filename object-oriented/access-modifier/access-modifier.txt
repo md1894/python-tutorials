@@ -1,0 +1,25 @@
+
+there are 3 access modifiers in python 
+1.public
+2.private
+3.protected
+
+1. public elememnts are available anywhere inside python code
+2. private members are accessible inside python class
+3. protected members are only accessible inside the python class and the subclass
+
+note: all the members inside the python class is bydefault public
+
+to declare a member as a private we have to prefix the name by two underscores symbol
+example :-->   __x , is defined as variable of name x , and it is private
+
+to declare a member as a protected , we have to prefix the name by one underscores symbol
+example :--> _x , is defined as variable of name x , and it is a protected member
+
+
+note::--> these features are just a convention , it is not implemented strictly at the language level
+          i.e. you can access private member outside the class also , just name mangling is there
+           _CLASSNAME__VARIABLENAME
+
+          protected member you can happily access anywhere , it is just a convention , 
+          but coding wise , no one will access the members outside their scope
