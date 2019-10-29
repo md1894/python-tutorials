@@ -2,3 +2,26 @@ nesting of try-except-finally block is possible
 if inner except block is unable to handle exception , 
 then outer block will get the control to handle inner exception
 then at last it will go to pvm
+
+various combinations:
+	1. try --> invalid
+	2. except --> invalid
+	3. else --> invalid
+	4. finally --> invalid
+	5. try + except --> valid
+	6. try + else --> invalid
+	7. try + finally --> valid
+	8. try + else + except --> invalid
+	9. try + else + finally --> invalid
+	10. try + except + else + finally --> valid
+	11. try + except + try + finally --> valid
+	12. try + except + except --> valid
+
+summary:
+	1. with try , either except block or finally , atleast one is compulsory
+	2. with except , try block should be there
+	3. finally without try block is invalid
+	4. with else , except block must be there
+	5. we can write multiple except block for same try block , but we cannot write multiple else block for the same try block
+	6. try - except - else - finally order is important
+	7. can do nesting
