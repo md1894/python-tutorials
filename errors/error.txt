@@ -1,0 +1,4 @@
+nesting of try-except-finally block is possible
+if inner except block is unable to handle exception , 
+then outer block will get the control to handle inner exception
+then at last it will go to pvm
