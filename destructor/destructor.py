@@ -13,6 +13,7 @@ t = None
 time.sleep(5)
 t2 = test()
 
+
 # when object points to None , it is eligible for garbage collection
 # garbagecollector will call destructor on that object
 # if program reaches end of code , then automatically every object is eligible for garbage collection
